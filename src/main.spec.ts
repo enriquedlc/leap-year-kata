@@ -11,7 +11,7 @@ import { isYearLeap } from "./main.js"
 
 describe("Default test", () => {
   it("shouldn't be leap if isn't divisible by 4", () => {
-    const actualDate = new Date(Date.parse("2000"))
+    const actualDate = new Date(Date.parse("2023"))
 
     const result = isYearLeap(actualDate)
 
