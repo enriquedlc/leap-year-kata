@@ -5,6 +5,7 @@ export function isYearLeap(date: Date) {
   const year = date.getFullYear()
 
   if (isDivisibleByFour(year) && isntDivisibleByOneHundred(year)) return true
+  if (isntDivisibleByOneHundred(year)) return true
 
   return false
 }
