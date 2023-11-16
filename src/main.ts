@@ -1,3 +1,3 @@
-export function isYearLeap(year: number) {
+export function isYearLeap(year: Date) {
   throw new Error("Not implemented yet")
 }
