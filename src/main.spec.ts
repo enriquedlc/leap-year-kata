@@ -27,7 +27,7 @@ describe("Default test", () => {
   })
 
   it("should be leap if it's divisible by 400 and 100", () => {
-    const actualDate = new Date(Date.parse("2000"))
+    const actualDate = new Date(Date.parse("800"))
 
     const result = isYearLeap(actualDate)
 
